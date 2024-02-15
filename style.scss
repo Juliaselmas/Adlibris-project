@@ -20,7 +20,7 @@ nav {
         border-radius: 7px;
         height: 10vh;
 
-        button , select , {
+        button , select  {
             height: 100%;
         }
         input {
@@ -39,15 +39,16 @@ nav {
 }
 
 .redButton {
-    background-color: red;
+    background-color: #ED1C24;
     color: white;
+    border: none;
     i {
         color: white;
     }
 }
 
 #banner {
-    background-color: red;
+    background-color: #ED1C24;
     display:flex;
     align-content: center;
     justify-content: center;
@@ -78,7 +79,7 @@ nav {
 
 }
 
-.booksWrap{
+.booksWrap {
     width: 70%;
     padding: 16px 80px 16px 360px;
 }
@@ -101,12 +102,22 @@ nav {
         button {
             background-color: #ED1C24;
             color: white;
+            font-size: 20px;
             height: 48px;
-            padding: 0 32px 0 12px;
+            padding: 0 12px 0 12px;
             border-radius: 8px;
             font-weight: 600;
             width: 100%;
             border: none;
+
+            i {
+                 color: white;
+            }
+        }
+
+        i {
+            color: #f4ca3e;
+            height: 20px;
         }
     }
 }
