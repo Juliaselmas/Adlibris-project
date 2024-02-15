@@ -11,12 +11,13 @@ nav {
 nav #logoNav {
   width: 10vw;
 }
-nav #searchFunction {
+nav #searchContainer {
   border: 1px solid black;
 }
 
-.fontawesomeIcon {
-  font-family: font;
+.redButton {
+  background-color: red;
+  color: white;
 }
 
 #banner {
@@ -29,6 +30,12 @@ nav #searchFunction {
   color: white;
 }
 
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .footer {
   background-color: #f2f2f2;
 }
@@ -37,6 +44,12 @@ nav #searchFunction {
 .footerListTwo,
 .footerListThree {
   list-style-type: none;
+}
+
+.divFooterFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #bookSection {
