@@ -29,6 +29,12 @@ nav #searchFunction {
   color: white;
 }
 
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .footer {
   background-color: #f2f2f2;
 }
