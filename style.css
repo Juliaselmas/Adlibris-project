@@ -46,10 +46,6 @@ nav #searchContainer {
   list-style-type: none;
 }
 
-.divFooterFour {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #bookSection {
