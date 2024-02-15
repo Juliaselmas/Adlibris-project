@@ -52,6 +52,11 @@ nav #searchContainer {
   align-items: center;
 }
 
+.booksWrap {
+  width: 70%;
+  padding: 16px 80px 16px 360px;
+}
+
 #bookSection {
   display: flex;
   flex-direction: row;
