@@ -14,6 +14,14 @@ nav #logoNav {
 nav #searchContainer {
   border: 1px solid black;
 }
+nav #searchContainer button, nav #searchContainer select {
+  height: 100%;
+}
+nav #searchContainer input {
+  padding: 0;
+  padding-inline: 0;
+  padding-block: 0;
+}
 
 .redButton {
   background-color: red;
