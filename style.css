@@ -61,20 +61,17 @@ nav #searchContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 70%;
-  padding: 16px 80px 16px 360px;
 }
-
-.productcard {
+#bookSection .productcard {
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
-.productcard img {
+#bookSection .productcard img {
   max-width: 200px;
   max-height: 305px;
 }
-.productcard button {
+#bookSection .productcard button {
   background-color: #ED1C24;
   color: white;
   height: 48px;
