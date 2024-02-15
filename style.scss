@@ -48,9 +48,11 @@ nav {
 
 main{
     width: 70%;
+    display: flex;
+    padding: 16px 80px 16px 360px;
 }
 #bookSection {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
