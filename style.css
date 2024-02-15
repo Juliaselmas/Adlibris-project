@@ -11,12 +11,13 @@ nav {
 nav #logoNav {
   width: 10vw;
 }
-nav #searchFunction {
+nav #searchContainer {
   border: 1px solid black;
 }
 
-.fontawesomeIcon {
-  font-family: font;
+.redButton {
+  background-color: red;
+  color: white;
 }
 
 #banner {
@@ -43,4 +44,24 @@ nav #searchFunction {
 .footerListTwo,
 .footerListThree {
   list-style-type: none;
+}
+
+.divFooterFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bookSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#bookSection .productcard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#bookSection .productcard img {
+  max-width: 200px;
 }/*# sourceMappingURL=style.css.map */
