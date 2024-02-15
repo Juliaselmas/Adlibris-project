@@ -8,7 +8,7 @@ nav {
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1vh;
 
     #logoNav {
@@ -18,7 +18,7 @@ nav {
     #searchContainer {
         border: 1px solid black;
         border-radius: 7px;
-        height: 100%;
+        height: 10vh;
 
         button , select , {
             height: 100%;
