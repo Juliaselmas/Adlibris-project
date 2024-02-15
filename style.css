@@ -69,7 +69,7 @@ nav #searchContainer {
 }
 #bookSection .productcard img {
   max-width: 200px;
-  max-height: 305px;
+  height: 305px;
 }
 #bookSection .productcard button {
   background-color: #ED1C24;
