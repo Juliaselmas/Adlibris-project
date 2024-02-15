@@ -13,13 +13,16 @@ nav {
         width: 10vw;
     }
 
-    #searchFunction {
+    #searchContainer {
         border: 1px solid black;
     }
+
+    
 }
 
-.fontawesomeIcon {
-    font-family: font;
+.redButton {
+    background-color: red;
+    color: white;
 }
 
 #banner {
@@ -33,17 +36,25 @@ nav {
     }
 }
 
-.footerWrapper{
-    
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .footer{
     background-color:#f2f2f2;
+   
 }.footerListOne,
 .footerListTwo,
 .footerListThree
 {
     list-style-type: none;
     
+}.divFooterFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .booksWrap{
