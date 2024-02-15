@@ -94,6 +94,16 @@ nav {
         display: flex;
         flex-direction: column;
 
+        .bookTitle {
+            font-weight: 800;
+            margin: 8px 0;
+            color: #5582c6;
+        }
+
+        .preorder {
+            margin: 18px 0 4px 0;
+        }
+
         img {
             max-width: 200px;
             height: 305px;

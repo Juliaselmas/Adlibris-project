@@ -86,6 +86,14 @@ nav i {
   display: flex;
   flex-direction: column;
 }
+#bookSection .productcard .bookTitle {
+  font-weight: 800;
+  margin: 8px 0;
+  color: #5582c6;
+}
+#bookSection .productcard .preorder {
+  margin: 18px 0 4px 0;
+}
 #bookSection .productcard img {
   max-width: 200px;
   height: 305px;
