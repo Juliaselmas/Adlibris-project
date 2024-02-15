@@ -7,5 +7,7 @@
 			"path": "../../Documents/Agile och Frontend Projekt/adlibris_minna/resources"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Adlibris-project"
+	}
 }
