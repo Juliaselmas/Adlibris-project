@@ -1,0 +1,16 @@
+#bookSection {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .productcard {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            max-width: 200px;
+        }
+    }
+}
+
