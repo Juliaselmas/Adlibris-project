@@ -7,7 +7,9 @@ body {
 nav {
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: space-between;
+    padding: 1vh;
 
     #logoNav {
         width: 10vw;
@@ -15,6 +17,8 @@ nav {
 
     #searchContainer {
         border: 1px solid black;
+        border-radius: 7px;
+        height: 100%;
 
         button , select , {
             height: 100%;
@@ -27,12 +31,19 @@ nav {
       
     }
 
+    i {
+        color: black;
+    }
+
     
 }
 
 .redButton {
     background-color: red;
     color: white;
+    i {
+        color: white;
+    }
 }
 
 #banner {
