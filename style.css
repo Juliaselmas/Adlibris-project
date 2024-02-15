@@ -39,6 +39,10 @@ nav #searchFunction {
   list-style-type: none;
 }
 
+main {
+  width: 70%;
+}
+
 #bookSection {
   display: flex;
   flex-direction: row;
