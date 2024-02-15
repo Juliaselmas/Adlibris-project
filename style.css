@@ -61,12 +61,26 @@ nav #searchContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 70%;
+  padding: 16px 80px 16px 360px;
 }
-#bookSection .productcard {
+
+.productcard {
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
-#bookSection .productcard img {
+.productcard img {
   max-width: 200px;
+  max-height: 305px;
+}
+.productcard button {
+  background-color: #ED1C24;
+  color: white;
+  height: 48px;
+  padding: 0 32px 0 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 100%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
